@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    flex-direction: column;
+    background-color: #2d2833;
+    color: aliceblue;
+    font-family: 'Source Sans Pro', 'open sans';
+}
+
+#reset {
+    color: white;
+    background-color: rgb(104, 42, 122);
+    height: 40px;
+    width: auto;
+    margin: 15px 0px;
+    border-radius: 5px;
+    border: 2px solid rgb(104, 42, 122);
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+#reset:hover {
+    background-color: rgb(123, 46, 145);
+}
+
+#reset:focus {
+    outline: none;
+}
+
+#header{
+    padding-bottom: 80px;
+}
+
+#puzzle {
+    font-size: 30px;
+}
+
+.container {
+    width: 2000px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.spans {
+    margin: 20px;
+    height: 5px;
+    width: 5px;
+    display: inline-block;
+}
+
+#guessesLeft {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
